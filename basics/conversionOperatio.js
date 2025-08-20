@@ -36,8 +36,37 @@ let str2 = " jatin"
 let str3 = str1+str2
 console.log(str3);
 
-console.log("1" + 2);
-console.log(1 + "2");
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+// console.log(+true);
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 100
+gameCounter++;
+
+console.log(gameCounter);
+
+/*
+POSTFIX INCREMENT:
+
+let x = 3;
+const y = x++;
+x is 4; y is 3
+_________________________
+
+PREFIX INCREMENT:
+
+let x2 = 3n;
+const y2 = x2++;
+x2 is 4n; y2 is 3n
+*/
+
 
 
 
