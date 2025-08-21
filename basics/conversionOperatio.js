@@ -1,3 +1,5 @@
+
+
 let score = undefined
 // value will be not a number(NaN) if 335drd or string
 
@@ -67,7 +69,33 @@ const y2 = x2++;
 x2 is 4n; y2 is 3n
 */
 
+// ________________________________________________
 
+// Stack memory (Primitive), Heap memory (Non-Primitive)
+
+// in stack memory we make changes in a copy not the real value
+
+let myYoutubename = "jatinkee"
+
+let anothername = myYoutubename
+anothername = "jatinplays"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+// in heap memory the changes we make happen in the main reference value
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@abc"
+}
+
+let userTwo = userOne
+
+userTwo.email = "jatin@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
 
 
 
