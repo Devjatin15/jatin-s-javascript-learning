@@ -13,12 +13,12 @@ console.log(all_new_heroes);
 
 const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]];
 
-const real_another_array = another_array.flat(Infinity);
+const real_another_array = another_array.flat(Infinity); // method to print all elements in a single array
 console.log(real_another_array);
 
 
-console.log(Array.isArray("Jatin"));
-console.log(Array.from("Jatin"))
+console.log(Array.isArray("Jatin")); // method to check if it is an array or not
+console.log(Array.from("Jatin")); // method to convert into array
 console.log(Array.from({name: "Jatin"})) // interesting empty array
 
 let score1 = 100
