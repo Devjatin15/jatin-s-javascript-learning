@@ -50,4 +50,4 @@ if (userLoggedIn && debitCard) { // both conditions should be true
 
 if (loggedInFromGoogle || loggedInFromEmail) { // at least one condition should be true
     console.log("user logged in");
-}
+} 

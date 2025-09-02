@@ -26,4 +26,4 @@ switch (month) { // shift + alt + down key to duplicate line
     default:
         console.log("no month found");
         break;
-} // if there is no break statement it will execute all the cases after the matched case but not the default case
+} // if there is no break statement it will execute all the cases after the matched case but not the default case 
