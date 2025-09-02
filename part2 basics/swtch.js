@@ -19,7 +19,7 @@ switch (month) { // shift + alt + down key to duplicate line
     case 3:
         console.log("march");
         break;
-    case 4:
+    case 4: 
         console.log("april");
         break;
 
